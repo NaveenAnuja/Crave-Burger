@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background.avif);
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 150%;
+    height: 150%;
+    border-radius: 8px;
+}
+
+.picture1 {
+    width: 500px;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.img-fluid{
+    height: 70%;
+    width: 60%;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.mainMenu {
+    background-color: red;
+    padding: 40px;
+    border-radius: 20px;
+    width: 380px;   
+    height: 100%;            
+    margin: 0 auto;             
+    display: flex; 
+    flex-direction: column;     
+    justify-content: center;    
+    align-items: center;       
+}
+
+.btn.custom-btn-store,
+.btn.custom-btn-order,
+.btn.custom-btn-customer,
+.btn.custom-btn-report,
+.btn.custom-btn-exit {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    font-weight: bold; 
+}
+
+.custom-btn-store {
+    background-color: #ffffff;
+}
+
+.custom-btn-order {
+    background-color: #ffffff;
+}
+
+.custom-btn-customer {
+    background-color: #ffffff;
+}
+
+.custom-btn-report {
+    background-color: #ffffff;
+}
+
+.custom-btn-exit {
+    background-color: #ffffff;
+}
+
+
+
+/*===============================================================================================================================*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.menu {
+    background-color: red;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.menu button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-button,
+.back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* ===================================================================================================== */
+
+.custom-search-input {
+    width: 750px;
+}
+
+#itemTotal{
+    max-width: 18%;
+    font-weight:bold;
+    font-size: 1.4rem;
+    color: rgb(255, 157, 0);
+}
+
+
+#disc{
+    max-width: 18%;
+    font-weight:bold;
+    font-size: 1.4rem;
+    color: rgb(39, 108, 18);
+}
+
+#netTotal{
+    max-width: 18%;
+    font-weight:bold;
+    font-size: 1.4rem;
+    color: rgb(255, 0, 0);
+}
+
+.input-group{
+    width: 60%;
+}
+
+.total {
+    width: 50%;
+}
